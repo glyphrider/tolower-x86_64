@@ -1,8 +1,10 @@
 EXE=tolower
 OBJS=tolower.o
-LD=clang
+LD=ld.gold
+# LD=clang
 LD_FLAGS=-nostdlib -static
-AS=clang -c
+AS=as -c
+# AS=clang -c
 AS_FLAGS=-g
 
 
